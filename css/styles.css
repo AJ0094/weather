@@ -2,7 +2,17 @@
 YOUR STYLES
 *******************/
 
+.temp {
+  color: red;
+}
 
+.city {
+  color: green;
+}
+
+.state {
+  color: blue;
+}
 
 
 /********************
