@@ -2,18 +2,168 @@
 YOUR STYLES
 *******************/
 
+body {
+	font-family: 'Orbitron', sans-serif;
+    background: black;
+	color: white;
+    text-shadow: 0px 1px 1px gray
+}
+
+/* Menu Button */
+
+#sidr-show-hide {
+  position: absolute;
+  z-index: 1000;
+  left: .5em;
+  top: .5em;
+  color: white;
+  font-size: 3em;
+  padding-top: 40px;
+}
+
+#close { 
+	float: right;
+	font-size: 2em;
+	margin: 1em;
+	padding: 0px 6px;
+	border: solid white;
+	border-radius: 100px;
+}
+
+.close { 
+	font-size: 2em;
+	margin: 1em;
+	padding: 0px 6px;
+}
+
+/* Sidebar */
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+li a {
+	width: 100%;
+	padding: .5em .5em .5em 0;
+}
+
+li a:active  {
+	background: white;
+	color: black;
+}
+
+.places {
+  list-style-type: none;
+	margin: 0 0 0 2em;
+	padding: 0;
+	
+}
+li {
+	width: 100%;
+	padding: .5em 0;
+}
+li:nth-child(1) {
+	margin: 2em 2em 2em 0;
+}
+
+}
+li:nth-child(2) {
+	margin-bottom: 4em;
+}
+
+section {
+  min-height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+/* Sidebar */
+
+.sidr {
+    display: block;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    z-index: 999999;
+    width: 16em;
+    overflow-x: hidden;
+    overflow-y: auto;
+	background: gray;
+	box-shadow: inset -20px -30px 100px -20px black;
+    }
+
+.left {
+        left: -16em;
+        right: auto;
+}
+
+/* Section */
+
+.info {
+	margin: 11em 0 0 0;   
+}
+
+h3, h1 {
+	text-align: center;
+	padding: 20px 0;
+	margin: 0 32px 0 0;
+    font-size: 2.5em;
+}
+
 .temp {
-  color: red;
+	font-size: 5em;
+	line-height: 1;
+    color: white;
+}
+#city {
+	padding-bottom: 0;
+    font-size: 2em;
+}
+.today {
+	border: none;
+	padding-top: 0;
+    font-size: 1.5em;
 }
 
-.city {
-  color: green;
+section i:first-child {
+    font-family: weather;
+    text-align: center;
+    font-size: 15em;
+    line-height: 1;
+    color: white; 
 }
 
-.state {
-  color: blue;
+/* Forecast */
+i {
+    font-family: weather;
+    font-size: 2.5em;
+    text-align: center;
 }
 
+figure {
+	display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+}
+
+.forecast {
+	text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+
+/* Button */
+.geo {
+  position: center;
+  background: black;
+  width: 100%;
+  padding: 1em;
+  text-align: center;
+	font-family: 'Coda';
+    color: white;
+}
 
 /********************
 MEDIA QUERIES
