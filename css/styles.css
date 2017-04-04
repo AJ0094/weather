@@ -74,6 +74,7 @@ section {
   width: 100%;
 }
 
+
 /* Sidebar */
 
 .sidr {
@@ -125,7 +126,7 @@ h3, h1 {
 section i:first-child {
     font-family: weather;
     text-align: center;
-    font-size: 15em;
+    font-size: 3em;
     line-height: 1;
     color: white; 
 }
@@ -133,30 +134,35 @@ section i:first-child {
 /* Forecast */
 i {
     font-family: weather;
-    font-size: 2.5em;
+    font-size:3em;
     text-align: center;
 }
 
 figure {
 	display: flex;
 	flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .forecast {
-	text-align: center;
+	text-align:center;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     color: white;
 }
 
 /* Button */
 .geo {
   position: center;
-  background: black;
+    color: white;
+  background: black; 
   width: 100%;
   padding: 1em;
   text-align: center;
 	font-family: 'Raleway', sans-serif;
-    color: black;
+}
+
+.geo:active {
+	background: white;
+	color: black;
 }

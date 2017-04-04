@@ -115,7 +115,7 @@ var getWeather = function(location) {
     $('#currentLocation figure:nth-child(5) img').attr('src', weather.forecast[4].image);
 
 		// Change Icon w/ Condition code
-    var currentLocationIconCode = 'icon-' + weather.code;
+      var currentLocationIconCode = 'icon-' + weather.code;
 	  var currentLocationIconCodeDay1 = 'icon-' + weather.forecast[0].code;
 	  var currentLocationIconCodeDay2 = 'icon-' + weather.forecast[1].code;
 	  var currentLocationIconCodeDay3 = 'icon-' + weather.forecast[2].code;
