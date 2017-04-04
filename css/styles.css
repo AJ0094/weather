@@ -14,7 +14,7 @@ body {
   top: .5em;
   color: white;
   font-size: 3em;
-  padding-top: 40px;
+  padding-top: 50px;
 }
 
 #close { 
@@ -75,7 +75,7 @@ section {
 }
 
 
-/* Sidebar */
+/* Sidr */
 
 .sidr {
     display: block;
